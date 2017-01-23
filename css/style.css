@@ -98,16 +98,9 @@
 /*Navbar*/
 
 .navbar {
-	background: #2F343A;
+	background: #402bb5;
 	font-size: 2em;
 	border: none;
-}
-
-.navbar-default {
-	background: -moz-linear-gradient(top, rgba(47,52,58,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(47,52,58,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(47,52,58,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f343a', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .navbar .nav > li > a {
@@ -117,10 +110,8 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+  	color: #555;
+    background-color: #E7E7E7; /* Active/Selected item */
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -397,4 +388,5 @@ blockquote small {
 	margin-bottom: 30px;
 	font-weight: bold;
 	font-size: 1.3em;
+	text-align: center;
 }
