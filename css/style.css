@@ -42,6 +42,24 @@
  	background-size: cover;
 }
 
+.testimonial-section {
+ 	/*background: #3399FF;*/
+ 	background: blueviolet; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, aqua, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, aqua, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, aqua, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, aqua, blue); /* Standard syntax */
+ 	width: 100%;
+ 	height: 52%;
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-attachment: fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
 .find-section {
  	background: #BDB69C;
  	width: 100%;
@@ -57,6 +75,7 @@
 .contact-section {
  	background: #FF9966;
  	width: 100%;
+ 	height: 105%;
  	background-repeat: no-repeat;
  	background-position: center top;
  	background-attachment: fixed;
@@ -272,6 +291,50 @@ blockquote small {
   	-webkit-animation-iteration-count: 1;
 }
 
+/*Testimonial Page*/
+
+blockquote {
+	border: none;
+	color: #DDDDDD;
+	margin: 0px;
+}
+
+blockquote small {
+	color: #DDD;
+}
+
+
+.testimonial-section {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.testimonialHeader {
+	margin-top: 10px;
+	font-size: 3.5em;
+	color: #DDDDDD;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#testimonials {
+	background-color: rgba(54, 25, 25, .3);
+	font-size: 1.5em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+
+/*Testimonial Animated*/
+
+.testQuote {
+    -webkit-animation-duration: 1s;
+  	-webkit-animation-delay: .7s;
+  	-webkit-animation-iteration-count: 1;
+} /*animation*/
 
 /*Contact Page*/
 
@@ -287,6 +350,16 @@ blockquote small {
 
 /*Contact Form*/
 
+.contactHeader {
+	margin-top: -100px;
+	margin-bottom: 60px;
+	font-size: 3.5em;
+	color: #DDDDDD;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
 .header {
     background-color: #F5F5F5;
     color: #36A0FF;
@@ -298,6 +371,7 @@ blockquote small {
 .directions {
 	height: 150px;
 	margin-top: 30px;
+
 }
 
 .blueText {
@@ -312,3 +386,15 @@ blockquote small {
 	box-shadow: 0px 0px 25px #061113;
 }
 
+.form-group {
+	padding-top: 15px;
+}
+
+/*Footer*/
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
