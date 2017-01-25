@@ -214,12 +214,19 @@ blockquote small {
 
 #profiles {
 	margin-top: 20px;
+	color: #DDDDDD;
+	font-weight: bold;
+	font-size: 2em;
 }
 
 #profileOne, #profileTwo, #profileThree {
     width: 50%;
     height: auto;
     margin: 0 auto;
+}
+
+#profiles p {
+	margin-top: 20px;
 }
 
 /*Services Page*/
