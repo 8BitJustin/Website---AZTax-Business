@@ -1,3 +1,5 @@
+
+
 /*Backgrounds*/
 
 .intro-section {
@@ -314,7 +316,6 @@ blockquote small {
 	color: #DDD;
 }
 
-
 .testimonial-section {
 	padding-top: 40px;
 	text-align: center;
@@ -337,6 +338,7 @@ blockquote small {
 	margin-top: 50px;
 	border-radius: 50px;
 	margin-bottom: 10px;
+
 }
 
 /*Testimonial Animated*/
@@ -379,6 +381,10 @@ blockquote small {
     padding: 10px;
 }
 
+.well {
+	display: inline-block;
+}
+
 .directions {
 	height: 150px;
 	margin-top: 30px;
@@ -409,4 +415,10 @@ blockquote small {
 	font-weight: bold;
 	font-size: 1.3em;
 	text-align: center;
+}
+
+/*Removes overflow from body*/
+
+body {
+    overflow-x: hidden; 
 }
