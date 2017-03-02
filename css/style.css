@@ -338,7 +338,6 @@ blockquote small {
 	margin-top: 50px;
 	border-radius: 50px;
 	margin-bottom: 10px;
-
 }
 
 /*Testimonial Animated*/
@@ -381,6 +380,10 @@ blockquote small {
     padding: 10px;
 }
 
+.firstName, .lastName, .emailInput, .phoneInput, .messageInput, .submitButton {
+	padding-top: 30px;
+}
+
 .well {
 	display: inline-block;
 }
@@ -403,9 +406,7 @@ blockquote small {
 	box-shadow: 0px 0px 25px #061113;
 }
 
-.form-group {
-	padding-top: 15px;
-}
+
 
 /*Footer*/
 
